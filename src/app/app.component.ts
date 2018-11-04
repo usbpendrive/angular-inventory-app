@@ -7,10 +7,10 @@ import {Product} from './product.model';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  product: Product[];
+  products: Product[];
 
   constructor() {
-    this.product = [
+    this.products = [
       new Product(
       'ARTEZA',
       'Arteza Real Brush Pens, 48 Colors for Watercolor Painting',
